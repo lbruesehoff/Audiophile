@@ -1,0 +1,45 @@
+.topnav{
+    overflow: hidden;
+    background-color: black;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .topnav{
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .topnav a:not(:nth-child(4), :nth-child(5), :nth-child(6))  {
+        display: none;
+    }
+
+    .topnav i{
+        font-size: 2rem;
+        color: white;
+        padding: 50% 0%;
+        
+    }
+    .topnav a:nth-child(4){
+        justify-self: start;
+        align-self: center ;
+        margin-left: 10%;
+    }
+
+    .topnav a:nth-child(5){
+        color: white;
+        align-self: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .topnav a:nth-child(6){
+        justify-self: end;
+        color: white;
+        align-self: center;
+        margin-right: 10%;
+    }
+}
