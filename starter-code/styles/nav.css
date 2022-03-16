@@ -1,7 +1,29 @@
+.sidenav{
+    display: none;
+}
+
+.icon{
+    display: none;
+}
+.topnav i{
+    font-size: 2rem;
+    color: white;
+}
+    
+
 .topnav{
     overflow: hidden;
     background-color: black;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
 }
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
@@ -11,7 +33,17 @@
         color: white;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 1%;
     }
+
+    .sidenav{
+        display:inline-block;
+    }
+    
+    .icon{
+        display: inline-block;
+    }
+    
 
     .topnav a:not(:nth-child(4), :nth-child(5), :nth-child(6))  {
         display: none;
@@ -42,4 +74,70 @@
         align-self: center;
         margin-right: 10%;
     }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        margin-top: 60px;
+        text-align:center;
+    }
+    
+    .sidenav a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+        display:block;
+        transition: 0.3s;
+        text-transform: uppercase;
+        
+    }
+
+    .sidenav a:nth-child(2){
+        background-color: #F1F1F1;
+        margin: 15% 10%;
+        padding: 15% 5% 5% 5%; 
+        border-radius: 10px;
+        font-weight:600;
+    }
+
+    .sidenav a:nth-child(3){
+        background-color: #F1F1F1;
+        margin: 15% 10%;
+        padding: 15% 5% 5% 5%; 
+        border-radius: 10px;
+        font-weight:600;
+    }
+
+    .sidenav a:nth-child(4){
+        background-color: #F1F1F1;
+        margin: 15% 10%;
+        padding: 15% 5% 5% 5%; 
+        border-radius: 10px;
+        font-weight:600;
+    }
+
+    .shopNav{
+        display: block;
+        font-size: .9rem;
+    }
+    
+    .sidenav a:hover{
+        color: #f1f1f1;
+    }
+
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px !important;
+        margin-left: 50px;
+    }
+    
 }
