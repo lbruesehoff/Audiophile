@@ -5,24 +5,57 @@
 .icon{
     display: none;
 }
-.topnav i{
-    font-size: 2rem;
-    color: white;
-}
-    
-
 .topnav{
     overflow: hidden;
     background-color: black;
     padding: 1%;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
 }
 
-.topnav a{
+.topnav i{
+    font-size: 2rem;
+    color: white;
+    
+}
+
+.topnav a {
+    align-self: center;
+    font-size: 1.5rem;
     text-decoration: none;
     color: white;
 }
+
+.topnav a:nth-child(6){
+    justify-self: end;
+    padding-right: 20%;
+}
+
+.topnav a:nth-child(3), :nth-child(4), :nth-child(5){
+    justify-self: center;
+}
+
+.navTitle{
+    font-size: 2rem !important;
+    font-weight: 900;
+    justify-self:left;
+    padding-left: 20%;
+ 
+}
+
+.divide{
+    grid-column: span 5;
+    padding: 1% 5%;
+}
+
+.divide hr{
+
+    color: white;
+    height: 2px;
+    
+    width: 100%;
+}
+    
 
 
 
@@ -45,7 +78,7 @@
     }
     
 
-    .topnav a:not(:nth-child(4), :nth-child(5), :nth-child(6))  {
+    .topnav a:not(:nth-child(1), :nth-child(2), :nth-child(6))  {
         display: none;
     }
 
@@ -55,13 +88,13 @@
         padding: 50% 0%;
         
     }
-    .topnav a:nth-child(4){
+    .topnav a:nth-child(1){
         justify-self: start;
         align-self: center ;
         margin-left: 10%;
     }
 
-    .topnav a:nth-child(5){
+    .topnav a:nth-child(2){
         color: white;
         align-self: center;
         font-size: 1.5rem;
