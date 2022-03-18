@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1024px){
+
+    .homeHeader{
+        background-image: url("../assets/home/mobile/image-header.jpg");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .homeHeader p:nth-child(3){
+        padding-top: 26%;
+        color: gray;
+        letter-spacing: 8px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        
+    }
+
+    .homeHeader h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 2.1rem;
+        letter-spacing: 2px;
+        line-height: 35px;
+    }
+
+    .homeHeader p:nth-child(6){
+        color: rgb(185, 185, 185);
+        padding: 5% 10%;
+        font-size: 1rem;
+    }
+
+    .homeHeader button{
+        background-color: #D87D4A ;
+        color: white;
+        border: none;
+        padding: 3% 6%;
+        margin: 0% 0 25% 0;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    
+}
