@@ -60,7 +60,11 @@
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
+
+    .divide{
+        display:none;
+    }
 
     .topnav{
         color: white;
@@ -71,6 +75,10 @@
 
     .sidenav{
         display:inline-block;
+    }
+
+    .navTitle{
+        padding: 0%;
     }
     
     .icon{
@@ -118,7 +126,7 @@
         background-color: white;
         overflow-x: hidden;
         transition: 0.5s;
-        margin-top: 60px;
+        margin-top: 70px;
         text-align:center;
     }
     
@@ -174,3 +182,23 @@
     }
     
 }
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .topnav{
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 6fr 1fr;
+        padding: 1%;
+    }
+
+    .topnav a:nth-child(2){
+        color: white;
+        align-self: center;
+        justify-self: start;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+  }
