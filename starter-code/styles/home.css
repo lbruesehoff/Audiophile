@@ -1,3 +1,46 @@
+.homeHeader{
+    background-image: url("../assets/home/desktop/image-hero.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+.homeHeader p:nth-child(3){
+    padding: 3% 0 2% 6%;
+    color: gray;
+    letter-spacing: 8px;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.homeHeader h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    line-height: 75px;
+    padding: 0% 0 0 6%;
+}
+
+.homeHeader p:nth-child(6){
+    color: rgb(185, 185, 185);
+    padding: 3% 70% 5% 6%;
+    font-size: 1.7rem;
+}
+
+
+.homeHeader button{
+    background-color: #D87D4A ;
+    color: white;
+    border: none;
+    padding: 1% 3%;
+    margin: 0% 0 5% 6%;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
 @media only screen and (max-width: 1024px){
 
     .homeHeader{
@@ -42,6 +85,45 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
+    .homeHeader{
+        background-image: url("../assets/home/tablet/image-header.jpg");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
 
+    .homeHeader p:nth-child(3){
+        padding-top: 18%;
+        padding-bottom: 2%;
+        color: gray;
+        letter-spacing: 8px;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        
+    }
+
+    .homeHeader h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 3rem;
+        letter-spacing: 2px;
+        line-height: 45px;
+    }
+
+    .homeHeader p:nth-child(6){
+        color: rgb(185, 185, 185);
+        padding: 5% 25%;
+        font-size: 1.1rem;
+    }
+
+    .homeHeader button{
+        background-color: #D87D4A ;
+        color: white;
+        border: none;
+        padding: 2% 6%;
+        margin: 0% 0 25% 0;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
     
 }
