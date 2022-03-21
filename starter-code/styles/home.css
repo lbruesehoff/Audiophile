@@ -1,3 +1,6 @@
+
+
+@media only screen and (min-width: 1025px) {
 .homeHeader{
     background-image: url("../assets/home/desktop/image-hero.jpg");
     background-size:100% 100%;
@@ -39,9 +42,94 @@
     font-weight: 600;
 }
 
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.items h1{
+    font-size: 5rem;
+}
+
+.items p{
+    font-size: 3rem;
+}
+
+.headphones{
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin: 25% 5% 0 5%;
+    padding: 25% 0 3% 0;
+    position: relative;
+}
 
 
-@media only screen and (max-width: 1024px){
+.headphones .headphonesHome{
+    width: 50%;
+    position:absolute;
+    bottom:45%;
+    left: 23%;
+    
+}
+
+
+.headphones h1{
+    font-weight: 500;
+
+}
+
+
+
+.speakers{
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin: 25% 5% 0 5%;
+    padding: 25% 0 3% 0;
+    position: relative;
+}
+
+
+.speakers .speakersHome{
+    width: 50%;
+    position:absolute;
+    bottom:45%;
+    left: 23%;
+    
+}
+
+
+.speakers h1{
+    font-weight: 500;
+
+}
+
+.earphones{
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin: 25% 5% 0 5%;
+    padding: 25% 0 3% 0;
+    position: relative;
+}
+
+
+.earphones .earphonesHome{
+    width: 50%;
+    position:absolute;
+    bottom:45%;
+    left: 23%;
+    
+}
+
+
+.earphones h1{
+    font-weight: 500;
+
+}
+}
+
+@media only screen and (max-width: 767px){
 
     .homeHeader{
         background-image: url("../assets/home/mobile/image-header.jpg");
@@ -81,6 +169,86 @@
         margin: 0% 0 25% 0;
         text-transform: uppercase;
         font-weight: 600;
+    }
+
+    /* Items under header */
+
+    .items{
+        text-align: center;
+        text-transform: uppercase;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .headphones{
+        background-color: #F1F1F1;
+        border-radius: 15px;
+        margin: 25% 5% 0 5%;
+        padding: 25% 0 3% 0;
+        position: relative;
+    }
+
+
+    .headphones .headphonesHome{
+        width: 50%;
+        position:absolute;
+        bottom:45%;
+        left: 23%;
+        
+    }
+
+
+    .headphones h1{
+        font-weight: 500;
+   
+    }
+
+
+
+    .speakers{
+        background-color: #F1F1F1;
+        border-radius: 15px;
+        margin: 25% 5% 0 5%;
+        padding: 25% 0 3% 0;
+        position: relative;
+    }
+
+
+    .speakers .speakersHome{
+        width: 50%;
+        position:absolute;
+        bottom:45%;
+        left: 23%;
+        
+    }
+
+
+    .speakers h1{
+        font-weight: 500;
+   
+    }
+
+    .earphones{
+        background-color: #F1F1F1;
+        border-radius: 15px;
+        margin: 25% 5% 0 5%;
+        padding: 25% 0 3% 0;
+        position: relative;
+    }
+
+
+    .earphones .earphonesHome{
+        width: 50%;
+        position:absolute;
+        bottom:45%;
+        left: 23%;
+        
+    }
+
+
+    .earphones h1{
+        font-weight: 500;
+   
     }
 }
 
@@ -125,5 +293,83 @@
         text-transform: uppercase;
         font-weight: 600;
     }
+
+    .items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 5%;
+        text-align: center;
+    }
+    .headphones{
+        background-color: #F1F1F1;
+        border-radius: 15px;
+        margin: 25% 5% 0 5%;
+        padding: 25% 0 3% 0;
+        position: relative;
+    }
+
+
+    .headphones .headphonesHome{
+        width: 50%;
+        position:absolute;
+        bottom:45%;
+        left: 23%;
+        
+    }
+
+
+    .headphones h1{
+        font-weight: 500;
+   
+    }
+
+
+
+    .speakers{
+        background-color: #F1F1F1;
+        border-radius: 15px;
+        margin: 25% 5% 0 5%;
+        padding: 25% 0 3% 0;
+        position: relative;
+    }
+
+
+    .speakers .speakersHome{
+        width: 50%;
+        position:absolute;
+        bottom:45%;
+        left: 23%;
+        
+    }
+
+
+    .speakers h1{
+        font-weight: 500;
+   
+    }
+
+    .earphones{
+        background-color: #F1F1F1;
+        border-radius: 15px;
+        margin: 25% 5% 0 5%;
+        padding: 25% 0 3% 0;
+        position: relative;
+    }
+
+
+    .earphones .earphonesHome{
+        width: 50%;
+        position:absolute;
+        bottom:45%;
+        left: 23%;
+        
+    }
+
+
+    .earphones h1{
+        font-weight: 500;
+   
+    }
+
     
 }
