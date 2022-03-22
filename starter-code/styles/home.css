@@ -339,9 +339,14 @@
     .items{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 5%;
+        padding: 5% 5% 0 5%;
         text-align: center;
     }
+
+    .items h1{
+        font-size: 1.5rem;
+    }
+
     .headphones{
         background-color: #F1F1F1;
         border-radius: 15px;
@@ -352,10 +357,10 @@
 
 
     .headphones .headphonesHome{
-        width: 50%;
+        width: 70%;
         position:absolute;
         bottom:45%;
-        left: 23%;
+        left: 15%;
         
     }
 
@@ -364,8 +369,6 @@
         font-weight: 500;
    
     }
-
-
 
     .speakers{
         background-color: #F1F1F1;
@@ -377,13 +380,12 @@
 
 
     .speakers .speakersHome{
-        width: 50%;
+        width: 70%;
         position:absolute;
         bottom:45%;
-        left: 23%;
+        left: 15%;
         
     }
-
 
     .speakers h1{
         font-weight: 500;
@@ -394,24 +396,62 @@
         background-color: #F1F1F1;
         border-radius: 15px;
         margin: 25% 5% 0 5%;
-        padding: 25% 0 3% 0;
+        padding: 25% 0 3% 0%;
         position: relative;
     }
 
-
     .earphones .earphonesHome{
-        width: 50%;
+        width: 70%;
         position:absolute;
         bottom:45%;
-        left: 23%;
+        left: 15%;
         
     }
-
 
     .earphones h1{
         font-weight: 500;
    
     }
 
+    .zx9Card{
+        background-color: #D87D4A;
+        background-image: url("../assets/home/desktop/pattern-circles.svg");
+        background-size: 125%;
+        background-position: 50% -450%;
+        background-repeat: no-repeat;
+        margin: 15% 5% 0 5%;
+        border-radius: 15px;
+        position: relative;
+        text-align: center;
+    }
+
+    .zx9CardImg{
+        margin: 6% 0 0 0;
+        width: 70%;
+    }
+
+    .zx9Card h1{
+        color: white;
+        font-size: 3rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .zx9Card p{
+        color: #F1F1F1;
+        margin: 0% 10%;
+        padding: 0% 0;
+        font-size: 1.5rem;
+    }
+
+    .zx9Card button{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 3% 10%;
+        margin: 5% 0 10% 0;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
     
 }
